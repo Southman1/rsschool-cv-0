@@ -1,3 +1,156 @@
 body{
     margin: 100px;
+}body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
+
+.header {
+    background-color: #e8ffed;
+    padding: 13px 0 0 0;
+}
+
+.container {
+    max-width: 910px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+/* -----Nav----- */
+
+.menu-info {
+   border-radius: 23px  23px 0 0;
+}
+
+.menu__inner {
+    padding: 15px 15px 15px 20px;
+
+}
+
+.fon_inner {
+    background: url(/images/fon.png)280px/280px;
+    background-repeat: no-repeat; 
+    background-position: 335px 8px;
+    position: relative;
+   
+}
+
+.menu__inner nav ul li a {
+    font-size: 14px;
+    padding: 10px 6px;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-flex; 
+}
+
+.menu__list {
+   display: flex;
+   justify-content: flex-start;
+   height: 46px;
+   width: 400px;
+   align-items: center;
+   background: rgb(191, 238, 224);
+   border-radius: 64px;
+   padding: 9px;
+}
+
+
+/* <!-- Main  --> */
+
+main {
+    max-height: 1060px;
+    background-color: #e8ffed;
+}
+
+
+.about__inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 39px;
+}
+
+.about__inner .left .title {
+    line-height: 44px;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.about__inner .left .line {
+    background: #90CDF4;
+    height: 10px;
+    width: 52px;
+    border-radius: 64px;
+    margin-bottom: 25px;
+}
+
+.about__inner .left .text {
+    width: 328px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.about__inner .left .text span {
+    color: #4299E1;
+}
+
+.about__inner .right img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;  
+}
+
+.right{
+    height: 350px;
+    width:  350px;
+    background: #89D8C9;
+    border-radius: 50%;
+}
+
+.main__contacts ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.main__contacts ul li  a{
+    padding: 10px;
+    margin: 12px;
+}
+
+.main__teleram,
+.main__github,
+.main__email,
+.main__phone-number {
+    width: 200px;
+    font-size: 12px;
+    line-height: 15px;
+    display: block;    
+    font-weight: bold;
+
+    text-align: center;
+    padding: 9px 0px;
+    border-radius: 64px;
+
+    color: white;
+    text-decoration: none; 
+    cursor: pointer;
+}
+
+.main__github,
+.main__phone-number{
+    background: #FBD38D;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.main__teleram,
+.main__email { 
+    background: #90CDF4; 
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05);
+} 
+
+
